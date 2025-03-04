@@ -1068,10 +1068,7 @@
               height: ' + 0 + 'px;\
               opacity: .1\
           }}';
-                head.appendChild(animation);
-                dust.classList.add('dustDef');
-                dust.setAttribute('style', `animation: blink${animationId++} ${fallingTime}s cubic-bezier(.71, .11, .68, .83) infinite ${animationDelay}s`);
-                document.getElementById(node).appendChild(dust);
+                
             }
 
             // yes, I'm doing it manually to get the effect I want.. can be easily changed to render randomly
